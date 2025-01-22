@@ -23,3 +23,5 @@ class WebElement:
     def get_text(self):
        return str(self.find_element().text)
 
+    def visible(self):
+        return self.find_element().is_displayed()
