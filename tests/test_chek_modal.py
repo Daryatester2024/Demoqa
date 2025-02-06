@@ -1,7 +1,6 @@
 import time
 
 from pages.modal_dialogs import ModalDialogs
-from pages.alerts import Alerts
 
 def test_check_modal(browser):
     page_modal=ModalDialogs(browser)
