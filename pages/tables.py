@@ -31,3 +31,11 @@ class Tables(BasePage):
         self.btn_next=WebElement(driver,'#app > div > div > div > div.col-12.mt-4.col-md-6 > div.web-tables-wrapper > div.ReactTable.-striped.-highlight > div.pagination-bottom > div > div.-next > button')
         self.btn_previous=WebElement(driver, '#app > div > div > div > div.col-12.mt-4.col-md-6 > div.web-tables-wrapper > div.ReactTable.-striped.-highlight > div.pagination-bottom > div > div.-previous > button')
         self.page_row_number=WebElement(driver,'#app > div > div > div > div.col-12.mt-4.col-md-6 > div.web-tables-wrapper > div.ReactTable.-striped.-highlight > div.pagination-bottom > div > div.-center > span.-pageInfo > div > input[type=number]')
+
+        self.heading_first_name=WebElement(driver,'div.rt-thead.-header > div > div:nth-child(1)')
+        self.heading_last_name=WebElement(driver,'div.rt-thead.-header > div > div:nth-child(2)')
+        self.heading_age=WebElement(driver,'div.rt-thead.-header > div > div:nth-child(3)')
+        self.heading_email=WebElement(driver,'div.rt-thead.-header > div > div:nth-child(4)')
+        self.heading_salary=WebElement(driver,'div.rt-thead.-header > div > div:nth-child(5)')
+        self.heading_department=WebElement(driver,'div.rt-thead.-header > div > div:nth-child(6)')
+
